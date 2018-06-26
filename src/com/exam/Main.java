@@ -22,7 +22,7 @@ public class Main {
 					String Food = token[1];
 					int price = Integer.parseInt(token[2]);
 					int kcal = Integer.parseInt(token[3]);
-					m.order.add(new InfoGet(id,Food,price,kcal));
+					m.orders.add(new InfoGet(id,Food,price,kcal));
 				} catch (NumberFormatException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
