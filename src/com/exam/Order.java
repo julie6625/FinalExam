@@ -87,9 +87,6 @@ public class Order {
 				}
 				Scanner sc3 = new Scanner(System.in);
 				String a = sc3.nextLine();
-				if(a = ""){
-					System.out.println("按下了Enter!");
-				} 
 			}else if(String.valueOf(foodname) == "q"){
 				big =false;
 				
