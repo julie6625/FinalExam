@@ -60,6 +60,32 @@ public class Order {
 					s1 = false;
 					s2 = true;
 					break;
+				case 2:
+					list.add(food);
+					s1 = false;
+					s2 = true;
+					break;
+				case 3:
+					list.add(food);
+					s1 = false;
+					s2 = true;
+					break;
+				case 4:
+					list.add(food);
+					s1 = false;
+					s2 = true;
+					break;
+				case 5:
+					list.add(food);
+					s1 = false;
+					s2 = true;
+					break;
+				case 7:
+					list.add(food);
+					s1 = false;
+					s2 = true;
+					break;
+
 				case 0:
 					s1= false;
 					
