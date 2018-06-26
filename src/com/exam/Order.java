@@ -87,6 +87,9 @@ public class Order {
 				}
 				Scanner sc3 = new Scanner(System.in);
 				String a = sc3.nextLine();
+				if(a == ""){
+					s1 =true;
+				}
 			}else if(String.valueOf(foodname) == "q"){
 				big =false;
 				
