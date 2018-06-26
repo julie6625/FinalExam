@@ -13,6 +13,7 @@ public class Order {
 	int price = 0;
 	int kcal = 0;
 	String food = null;
+	
 
 
 	
@@ -81,9 +82,14 @@ public class Order {
 			if(foodname == 0){
 				System.out.println(list+"數量分別是:"+list2);
 				System.out.println("總金額:"+total);
-				if(kcal>1200){
+				if(ktotal>1200){
 					System.out.println("高熱量餐點");
 				}
+				Scanner sc3 = new Scanner(System.in);
+				String a = sc3.nextLine();
+				if(a = ""){
+					System.out.println("按下了Enter!");
+				} 
 			}else if(String.valueOf(foodname) == "q"){
 				big =false;
 				
